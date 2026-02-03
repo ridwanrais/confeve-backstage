@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'EventHub - Event Management Platform',
+  title: 'Confeve - Event Management Platform',
   description: 'Modern event management platform for creating and managing events',
   generator: 'v0.app',
   icons: {

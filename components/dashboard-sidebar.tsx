@@ -42,7 +42,7 @@ export function DashboardSidebar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12M8 11h12M8 15h12M4 7h.01M4 11h.01M4 15h.01" />
               </svg>
             </div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-sidebar-primary to-sidebar-primary/80 bg-clip-text text-transparent">EventHub</h1>
+            <h1 className="text-xl font-bold bg-gradient-to-r from-sidebar-primary to-sidebar-primary/80 bg-clip-text text-transparent">Confeve</h1>
           </div>
           <p className="text-xs text-sidebar-foreground/60">Event Management</p>
         </div>
