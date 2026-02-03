@@ -2,6 +2,7 @@
 
 import { User, Bell } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 interface DashboardHeaderProps {
   title?: string
@@ -16,6 +17,8 @@ export function DashboardHeader({ title }: DashboardHeaderProps) {
         </div>
         
         <div className="flex items-center gap-4">
+          <ThemeToggle />
+          
           <Button 
             variant="ghost" 
             size="icon"
